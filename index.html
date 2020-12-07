@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Tab Navigation Widget | VanillaJS</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <div class="phone">
+      <img src="./assets/images/1.jpg" alt="home" class="content show" />
+      <img src="./assets/images/2.jpg" alt="work" class="content" />
+      <img src="./assets/images/3.jpg" alt="blog" class="content" />
+      <img src="./assets/images/4.jpg" alt="about" class="content" />
+      <img src="./assets/images/5.jpg" alt="books" class="content" />
+      <nav>
+        <ul>
+          <li class="active">
+            <i class="fas fa-home"></i>
+            <p>Home</p>
+          </li>
+          <li>
+            <i class="fas fa-box"></i>
+            <p>Work</p>
+          </li>
+          <li>
+            <i class="fas fa-book-open"></i>
+            <p>Blog</p>
+          </li>
+          <li>
+            <i class="fas fa-users"></i>
+            <p>About</p>
+          </li>
+          <li>
+            <i class="fas fa-book"></i>
+            <p>Books</p>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<body>
-  <script src="js/script.js"></script>
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>
